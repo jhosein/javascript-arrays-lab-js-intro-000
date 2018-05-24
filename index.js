@@ -12,3 +12,9 @@ function destructivelyPrependKitten(name) {
 
   return newKittens;
 }
+
+function destructivelyRemoveLastKitten() {
+  var newKittens = kittens.slice(-1);
+
+  return newKittens;
+}
