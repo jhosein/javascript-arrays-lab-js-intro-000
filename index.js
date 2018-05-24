@@ -25,3 +25,8 @@ kittens.shift();
 var newKittens =  kittens
   return newKittens;
 }
+
+function appendKitten(name) {
+
+  return kittens;
+}
