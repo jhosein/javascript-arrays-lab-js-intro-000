@@ -28,5 +28,6 @@ var newKittens =  kittens
 
 function appendKitten(name) {
 
-  return kittens;
+  var newKittens = kittens.push(name);
+  return newkittens;
 }
