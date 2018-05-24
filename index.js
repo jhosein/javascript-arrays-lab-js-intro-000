@@ -18,3 +18,9 @@ function destructivelyRemoveLastKitten() {
 
   return newKittens;
 }
+
+function destructivelyRemoveFirstKitten() {
+  var newKittens = kittens.slice(1);
+
+  return newKittens;
+}
