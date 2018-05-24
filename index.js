@@ -20,7 +20,7 @@ function destructivelyRemoveLastKitten() {
 }
 
 function destructivelyRemoveFirstKitten() {
-  var newKittens = kittens.slice(1);
 
+var newKittens =  kittens.shift();
   return newKittens;
 }
